@@ -13,7 +13,8 @@ const routes = [
       { path: '/company', name: 'company', component: () => import('@/views/company') },
       { path: '/worker', name: 'worker', component: () => import('@/views/worker') }
     ]
-  }
+  },
+  { path: '/home/entercompany', name: 'entercompany', component: () => import('@/views/enter-company') } // 入住商务部
 ]
 
 const router = new VueRouter({

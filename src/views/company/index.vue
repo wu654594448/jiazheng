@@ -4,16 +4,16 @@
 
 <script>
 export default {
-  name: 'company',
+  name: 'CompanyIndex',
   components: {},
   props: {},
-  data () {
+  data() {
     return {}
   },
   computed: {},
   watch: {},
-  created () {},
-  mounted () {},
+  created() {},
+  mounted() {},
   methods: {}
 }
 </script>
